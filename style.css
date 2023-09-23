@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: khaki;
+}
+
+h1,
+h2 {
+  font-family: fantasy;
+  text-align: center;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+a:link {
+  color: red;
+}
+a:visited link {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+#about-me {
+  background-color: violet;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  border: 30px;
+}
+.forms input,
+textarea {
+  border: 2px red dashed;
+}
+}
+.image {
+  float: right;
+}
+.navigation li {
+  display: inline;
+  padding: 8px;
+}
+.header {
+  padding: 40px 60px;
+  background: goldenrod;
+  color: #f1f1f1;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.sticky {
+  position: fixed;
+}
